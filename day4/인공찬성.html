@@ -34,7 +34,7 @@
 
 <body>
 	<div id="monitor"></div>
-	<section style="height: 9800px;">
+	<section style="height: 10500px;">
 <div id="prr" style="position: fixed; top:0; left: 0;
 width: 100%;
 height: 100%; background: black;">
@@ -107,24 +107,24 @@ height: 100%; background: black;">
 			var t = document.documentElement.scrollTop + document.body.scrollTop;
 			monitor.innerHTML = t.toFixed(1);
 
-			if(30 < t){pr1.style.animation = "unzero 1s both";}
+			if(-10 < t){pr1.style.animation = "unzero 1s both";}
 			else{}
-			if(30 > t){pr1.style.animation = "zerozero 0.5s both";}
+			if(-10 > t){pr1.style.animation = "zerozero 0.5s both";}
 			else{}	
-			if(1700 < t){pr1.style.animation = "zerozero 1.5s both";}
+			if(1700 < t){pr1.style.animation = "zerozero 0.5s both";}
 			else{}					
-			if(50 < t){pr2.style.animation = "unzerodown 1s infinite alternate";}
+			if(-10 < t){pr2.style.animation = "unzerodown 1s infinite alternate";}
 			else{}
-			if(50 > t){pr2.style.animation = "zerozero 0.5s both";}
+			if(-10 > t){pr2.style.animation = "zerozero 0.5s both";}
 			else{}	
-			if(1000 < t){pr2.style.animation = "zerozero 1.5s both";}
+			if(1000 < t){pr2.style.animation = "zerozero 0.5s both";}
 			else{}
 			if(700 < t){pr3.style.animation = "unzero 1s both";}
 			else{}
 			if(700 > t){pr3.style.animation = "zerozero 0.5s both";}
 			else{}	
-			if(1000 < t){pr3.style.animation = "zerozero 1.5s both";}
-			if(30 < t){prr.style.animation = "unzero 1.5s both";}
+			if(1000 < t){pr3.style.animation = "zerozero 0.5s both";}
+			if(30 < t){prr.style.animation = "unzero 0.5s both";}
 			else{}
 			if(30 > t){prr.style.animation = "zerozero 0.5s both";}
 			else{}	
@@ -139,19 +139,19 @@ height: 100%; background: black;">
 			if(1700 < t){pr4.style.animation = "zerozero 1.5s both";}
 			else{}			
 
-			if(1750 < t){pr5.style.animation = "unzero 1.5s both";}
+			if(1750 < t){pr5.style.animation = "unzero 0.5s both";}
 			else{}
 			if(1750 > t){pr5.style.animation = "zerozero 0.5s both";}
 			else{}	
 			if(2600 < t){pr5.style.animation = "zerozero 1.5s both";}
 			else{}			
-			if(1800 < t){pr51.style.animation = "unzero 1.5s both";}
+			if(1800 < t){pr51.style.animation = "unzero 0.5s both";}
 			else{}
 			if(1800 > t){pr51.style.animation = "zerozero 0.5s both";}
 			else{}	
 			if(2600 < t){pr51.style.animation = "zerozero 1.5s both";}
 			else{}	
-			if(1900 < t){pr52.style.animation = "unzero 1.5s both";}
+			if(1900 < t){pr52.style.animation = "unzero 0.5s both";}
 			else{}
 			if(1900 > t){pr52.style.animation = "zerozero 0.5s both";}
 			else{}	
@@ -163,7 +163,7 @@ height: 100%; background: black;">
 			else{}	
 			if(2600 < t){pr53.style.animation = "zerozero 1.5s both";}
 			else{}
-			if(2100 < t){pr54.style.animation = "unzero 1.5s both";}
+			if(2100 < t){pr54.style.animation = "unzero 0.5s both";}
 			else{}
 			if(2100 > t){pr54.style.animation = "zerozero 0.5s both";}
 			else{}	
@@ -200,14 +200,14 @@ height: 100%; background: black;">
 			else{}
 
 
-			if(3600 < t){pr10.style.animation = "unzeroturn 1.5s both";}
+			if(3600 < t){pr10.style.animation = "unzeroturn 0.5s both";}
 			else{}
 			if(3600 > t){pr10.style.animation = "zerozero 0.5s both";}
 			else{}	
 			if(4100 < t){pr10.style.animation = "zerozero 1.5s both";}
 			else{}	
 
-			if(3600 < t){pr11.style.animation = "unzeroturn 1.5s both";}
+			if(3600 < t){pr11.style.animation = "unzeroturn 0.5s both";}
 			else{}
 			if(3600 > t){pr11.style.animation = "zerozero 0.5s both";}
 			else{}	
@@ -215,7 +215,7 @@ height: 100%; background: black;">
 			else{}	
 
 
-			if(4100 < t){pr12.style.animation = "unzero 1.5s both";}
+			if(4100 < t){pr12.style.animation = "unzero 0.5s both";}
 			else{}
 			if(4100 > t){pr12.style.animation = "zerozero 0.5s both";}
 			else{}	
@@ -232,7 +232,7 @@ height: 100%; background: black;">
 			else{}
 			if(5100 > t){pr14.style.animation = "zerozero 0.5s both";}
 			else{}	
-			if(5600 < t){pr14.style.animation = "zerozero 1.5s both";}
+			if(5600 < t){pr14.style.animation = "zerozero 0.5s both";}
 			else{}						
 			if(5100 < t){pr15.style.animation = "unzero 1.8s 0.3s infinite alternate";}
 			else{}
@@ -240,7 +240,7 @@ height: 100%; background: black;">
 			else{}	
 			if(5600 < t){pr15.style.animation = "zerozero 1.5s both";}
 			else{}		
-			if(5100 < t){pr16.style.animation = "unzero 1.5s both";}
+			if(5100 < t){pr16.style.animation = "unzero 0.5s both";}
 			else{}
 			if(5100 > t){pr16.style.animation = "zerozero 0.5s both";}
 			else{}	
@@ -266,7 +266,7 @@ height: 100%; background: black;">
 			if(6500 < t){pr19.style.animation = "zerozero 1.5s both";}
 			else{}	
 
-			if(6550 < t){pr20.style.animation = "unzeroside 1.5s both";}
+			if(6550 < t){pr20.style.animation = "unzeroside 0.5s both";}
 			else{}
 			if(6550 > t){pr20.style.animation = "zerozero 0.5s both";}
 			else{}	
@@ -302,19 +302,19 @@ height: 100%; background: black;">
 			else{}
 			if(8100 > t){pr25.style.animation = "zerozero 0.5s both";}
 			else{}	
-			if(9000 < t){pr25.style.animation = "zerozero 1.5s both";}
+			if(9600 < t){pr25.style.animation = "zerozero 1.5s both";}
 			else{}								
 			if(8150 < t){pr26.style.animation = "unzero 1.5s both";}
 			else{}
 			if(8150 > t){pr26.style.animation = "zerozero 0.5s both";}
 			else{}	
-			if(8500 < t){pr26.style.animation = "zerozero 1.5s both";}
+			if(8800 < t){pr26.style.animation = "zerozero 1.5s both";}
 			else{}		
-			if(8650 < t){pr27.style.animation = "unzero 1.5s both";}
+			if(8850 < t){pr27.style.animation = "unzero 1.5s both";}
 			else{}
-			if(8650 > t){pr27.style.animation = "zerozero 0.5s both";}
+			if(8850 > t){pr27.style.animation = "zerozero 0.5s both";}
 			else{}	
-			if(9000 < t){pr27.style.animation = "zerozero 1.5s both";}
+			if(9600 < t){pr27.style.animation = "zerozero 1.5s both";}
 			else{}											
 
 
