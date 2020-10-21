@@ -76,14 +76,16 @@
 	</div>	
 	
 
-		<div  >
+		<div id="pr1122" style="position: fixed; top:0; left: 0;
+width: 100%; opacity: 0;
+height: 100%; background: black;" >
 
 		<img src="universe2.png" id="uni" style="width: 100%; top: 0%;  position: fixed; opacity: 0;">
 	</div>
 		<div  >
-	<p id="voice7" style="color: black; top: 40%; position: fixed; left: 36%; font-size: 1.5vw; opacity: 0; text-align: center; line-height: 1.5;"> 이건 지구와는 상관없는 아주 먼 행성의 일 입니다.
+	<p id="voice7" style="color: black; top: 40%; color: white; position: fixed; left: 36%; font-size: 1.5vw; opacity: 0; text-align: center; line-height: 1.5;"> 이건 지구와는 상관없는 아주 먼 행성의 일 입니다.
 	 </p>
-	<p id="voice8" style="color: black; top: 45%; position: fixed;  left: 36%; font-size: 1.5vw; opacity: 0; text-align: center; line-height: 1.5;"> 그저 지구와 환경이 비슷한 게 전부입니다.
+	<p id="voice8" style="color: black; top: 45%; position: fixed;color: white;   left: 36%; font-size: 1.5vw; opacity: 0; text-align: center; line-height: 1.5;"> 그저 지구와 환경이 비슷한 게 전부입니다.
 	 </p>	 
 		<img src="star1.png" id="uni2" style="width: 80%; top: 0%;  position: fixed; opacity: 0;">
 	</div>
@@ -100,7 +102,7 @@
 		<img src="blackground.jpg"   id="ground" style="width: 100%; top: 0%;  position: fixed; opacity: 0; ">
 	</div>	
 <div>
-	<p id="voice1" style="color: black; top: 35%; position: fixed; left: 41%; font-size: 1.5vw; opacity: 0; text-align: center; line-height: 1.5;"> 당신은 모든 것을 <br>
+	<p id="voice1" style="color: black; top: 35%; position: fixed; left: 41%;color: white;  font-size: 1.5vw; opacity: 0; text-align: center; line-height: 1.5;"> 당신은 모든 것을 <br>
 	결정 할 수 있습니다.</p>
 	</div>	
 <div>
@@ -232,6 +234,13 @@
 			else{}	
 			if(3300 < t){voice1.style.animation = "zerozero 1s both";}
 			else{}	
+
+			if(1200 < t){pr1122.style.animation = "unzero 1s both";}
+			else{}
+			if(1200 > t){pr1122.style.animation = "zerozero 0.5s both";}
+			else{}	
+			if(8000 < t){pr1122.style.animation = "zerozero 1s both";}
+			else{}					
 
 
 			if(3700 < t){voice2.style.animation = "unzero 1s both";}

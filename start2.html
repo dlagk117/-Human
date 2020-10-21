@@ -5,8 +5,8 @@
 	<style type="text/css">
 		html{background: black;}
 		body,div, p, section, button {padding: 0; margin: 0; }
-		@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
-		div{font-family: 'Noto Sans KR', sans-serif; }	
+  @font-face { font-family: 'NotoSerifKR'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff'); font-weight: normal; font-style: normal; }    
+    html,body{margin: 0; padding: 0; font-family: 'NotoSerifKR';   }	
 		p{padding: 3px;}
 p.typing-txt{
   position:relative;
@@ -41,6 +41,7 @@ p.typing-txt3::after{
   border-right: 2px solid ;
   animation: cursor 0.5s 6.7s step-end infinite ;
 }
+
 
 button {border: 1px solid white; border-radius: 10px; text-align: center; width: 100px; background-color: black; padding: 8px; font-size: 1em; cursor: pointer; }
 
